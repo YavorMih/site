@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
       <section className="relative h-screen min-h-[600px] flex items-center">
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2653&auto=format&fit=crop")' }}
+          style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2580&auto=format&fit=crop")' }}
         >
            <div className="absolute inset-0 bg-primary/40"></div>
         </div>
@@ -88,9 +88,9 @@ export const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
            <div className="w-full md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?q=80&w=2670&auto=format&fit=crop" 
-                alt="Interior" 
-                className="rounded-lg shadow-xl"
+                src="https://images.unsplash.com/photo-1556912173-3db9963ee790?q=80&w=2670&auto=format&fit=crop"
+                alt="Kitchen Interior"
+                className="rounded-lg shadow-xl w-full h-auto object-cover"
               />
            </div>
            <div className="w-full md:w-1/2">
@@ -120,7 +120,7 @@ export const Home: React.FC = () => {
                   <div className="text-sm uppercase tracking-widest text-gray-400">Средна заетост</div>
                </div>
                <div className="bg-white/5 p-8 rounded-lg border border-white/10">
-                  <div className="text-4xl md:text-5xl font-bold text-accent mb-2">100 лв</div>
+                  <div className="text-4xl md:text-5xl font-bold text-accent mb-2">51 €</div>
                   <div className="text-sm uppercase tracking-widest text-gray-400">Ср. цена нощувка</div>
                </div>
                <div className="bg-white/5 p-8 rounded-lg border border-white/10">

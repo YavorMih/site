@@ -137,9 +137,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif mb-6">Контакти</h3>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li>+359 898 795 311</li>
-              <li>office@primehost.bg</li>
+              <li className="font-medium text-white mb-1">officeprimehost@gmail.com</li>
               <li>София, България</li>
+              <li className="pt-2 opacity-60 text-xs">+359 898 795 311</li>
             </ul>
           </div>
         </div>

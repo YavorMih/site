@@ -112,10 +112,6 @@ export const Pricing: React.FC = () => {
             </div>
           ))}
         </div>
-        
-        <div className="text-center mt-12 text-gray-500 text-sm">
-           <p>Цените са без включен ДДС. За комплекси от имоти изготвяме индивидуална оферта.</p>
-        </div>
       </div>
     </div>
   );

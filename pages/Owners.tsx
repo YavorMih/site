@@ -55,13 +55,13 @@ export const Owners: React.FC = () => {
              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-center">
                 <div className="space-y-4">
                    <p className="text-sm text-gray-500 uppercase tracking-wide">Дългосрочен наем</p>
-                   <p className="text-4xl font-bold text-gray-400">800 лв.</p>
+                   <p className="text-4xl font-bold text-gray-400">409 €</p>
                    <p className="text-xs text-gray-400">Месечен доход</p>
                 </div>
                 <div className="space-y-4 relative">
                    <div className="absolute inset-0 bg-blue-50 -z-10 rounded-xl transform scale-110"></div>
                    <p className="text-sm text-accent font-bold uppercase tracking-wide">PrimeHost Управление</p>
-                   <p className="text-5xl font-bold text-primary">1,450 лв.</p>
+                   <p className="text-5xl font-bold text-primary">741 €</p>
                    <p className="text-xs text-gray-500">Прогнозен чист месечен доход</p>
                    <div className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold mt-2">
                       +80% Увеличение
